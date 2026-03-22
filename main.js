@@ -48,7 +48,6 @@ function writeResult(data){
 </div>
     <style> 
       .abilities{
-        filter: invert(55%) sepia(74%) saturate(0%) hue-rotate(177deg) brightness(79%) contrast(76%);
         padding-right: 15px;
       }
       </style>`
