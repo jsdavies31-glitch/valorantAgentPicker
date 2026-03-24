@@ -39,8 +39,11 @@ function writeResult(data){
   <div id= response>
   <center><img src="${displayIconSmall}" /></center>
   <p class="body" style="font-family: sans-serif; color:white; text-align:center">
-  Your chosen Agent is: <b>${displayName} </b> <br> 
-  Your role is: <b> ${role.displayName} </b></p>
+  Your Agent is: <b>${displayName} </b> <br> 
+  Your role is: <b> ${role.displayName} </b> <br>
+  ${description}
+  </p>
+  
 
    ${abilities.map(row => row.displayIcon ?
      `<img src=${row?.displayIcon} width="40"height="40" class="abilities"></img>`:"").join('')} 
