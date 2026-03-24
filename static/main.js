@@ -12,10 +12,10 @@ function pickAgent(onclick){
 async function sendRequest(){
     
     try{
-    const response  = await fetch(`https://valorant-api.com/v1/agents`)
+    const response  = await fetch(`/agent`)
 
    const {data} =  await response.json()
-   console.log(data)
+   console.log(data,'request recieved from backend')
    
    writeResult(data)
 
