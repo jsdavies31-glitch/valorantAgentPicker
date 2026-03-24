@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    justify-content: center;
+   background-color: lightgrey;
+   text-align: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+#output {
+     display: block;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: darkgray;
+    border-radius: 10px;
+    width: 30%;
+}
+
+
+#response{
+     background-color: darkgray;
+     border-radius: 10px;
+     padding: 25px;
+}
+
+
+h1 {
+    color: rgb(31, 30, 30);
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+#options {
+    align-items: center;
+}
+
+.show {
+    display:block
+}
+
+
+#inputs {
+    display: block;
+    margin-bottom: 10px;
+}
